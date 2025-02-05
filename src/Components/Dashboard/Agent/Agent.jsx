@@ -118,7 +118,7 @@ const Agent = () => {
                     ))}
                   </select>
                 </td>
-                <td className="p-2 border flex py-4">
+                <td className="p-2 border flex py-[2rem]">
                   <button
                     className="bg-blue-500 text-white px-2 py-1 rounded cursor-pointer"
                     onClick={() => alert(`Viewing ticket: ${ticket.id}`)}
